@@ -25,4 +25,17 @@ This repository hosts the public-facing GitHub Pages site for **WhaleTrucker Ree
 - `.gitignore`, `LICENSE` — Standard setup
 
 ## 🏆 splash.log Entry
+[2025-12-09 14:23 ICT] Azure WebApp CI/CD Activated
+
+=== Workflow ===
+file: azure-webapps-node.yml
+trigger: push to main + manual dispatch
+env: Node 20.x, custom app name
+steps: build, test, deploy
+
+=== Secrets ===
+AZURE_WEBAPP_PUBLISH_PROFILE: configured
+
+=== Emotion ===
+feeling: confident, resilient, reef mirrored in Azure
 
