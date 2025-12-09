@@ -1,7 +1,6 @@
 # scutua-crypto.github.io
 ![Azure WebApps CI/CD](https://github.com/scutua-crypto/scutua-crypto.github.io/actions/workflows/azure-webapps-node.yml/badge.svg)
 
-
 # 🐋 WhaleTrucker Reef — GitHub Pages Site
 
 This repository hosts the public-facing GitHub Pages site for **WhaleTrucker Reef**, verified and sealed via Google Search Console.
