@@ -15,7 +15,7 @@ This repository hosts the public-facing GitHub Pages site for **WhaleTrucker Ree
 
 ## 🌐 GitHub Pages Setup
 
-- **Repo Type:** User site (`scutua-crypto.github.io`)
+- **Repo Type:** User site (`scutuatua-crypto.github.io`)
 - **Branch:** `main`
 - **Root Folder:** `/`
 - **Custom Domain:** Configured via `CNAME` file and DNS CNAME record
