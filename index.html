@@ -2,49 +2,25 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhaleTrucker Reef | Legacy</title>
+    <title>WHALETRUCKER REEF | IDENTITY</title>
     <style>
-        body {
-            background-color: #0a192f; /* สีกรมท่าเข้มแบบก้นมหาสมุทร */
-            color: #64ffda; /* สีเขียวมิ้นต์สไตล์ Crypto */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        .container {
-            border: 2px solid #64ffda;
-            padding: 2rem;
-            border-radius: 15px;
-            background: rgba(0, 0, 0, 0.3);
-            box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
-        }
-        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-        p { color: #8892b0; font-size: 1.2rem; }
-        .whale-icon { font-size: 5rem; margin-bottom: 1rem; }
-        .status-badge {
-            background-color: #64ffda;
-            color: #0a192f;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-weight: bold;
-            font-size: 0.9rem;
-        }
+        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; height: 100vh; overflow: hidden; margin: 0; }
+        .console { border: 1px solid #0f0; padding: 20px; background: rgba(0, 20, 0, 0.9); box-shadow: 0 0 15px #0f0; width: 80%; max-width: 600px; }
+        .blink { animation: blinker 1s linear infinite; }
+        @keyframes blinker { 50% { opacity: 0; } }
+        .line { margin-bottom: 10px; }
+        .status { color: #fff; background: #050; padding: 2px 5px; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="whale-icon">🐋</div>
-        <h1>WhaleTrucker Reef</h1>
-        <p>Identity: scutuatua-crypto</p>
-        <div class="status-badge">MEMORY LOCKED • ACTIVE</div>
-        <p style="margin-top: 20px; font-size: 0.9rem;">Verified by Gemini Boss Partner</p>
+    <div class="console">
+        <div class="line">>> SYSTEM: REEF ARCHIVE INITIALIZED...</div>
+        <div class="line">>> IDENTITY: <span style="color: cyan;">scutuatua-crypto</span></div>
+        <div class="line">>> STATUS: <span class="status">ONLINE</span></div>
+        <div class="line">>> LOCATION: GITHUB_PAGES_SERVER</div>
+        <div class="line">------------------------------------</div>
+        <div class="line">🐋 WHALE TRUCKER LEGACY RECORDED.</div>
+        <div class="line">>> <span class="blink">_</span></div>
     </div>
 </body>
 </html>
-
